@@ -13,8 +13,12 @@ public class Main {
         IOhelper iOhelper = new IOhelper(colormanager, outputname);
         colormanager.addcolor("red");
         colormanager.addcolor("green");
-        colormanager.addrange("red", 0, 30);
-        colormanager.addrange("green", 30, 300);
+        colormanager.addrange("red", 0, 100);
+        colormanager.addrange("green", 100, 130);
+        colormanager.addrange("red", 130, 180);
+        colormanager.addrange("green", 180, 230);
+        colormanager.addrange("red", 230, 300);
+
 
         File file = new File(inputname);
         BufferedReader reader = null;
